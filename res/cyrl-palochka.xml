@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<inputmethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0">
+  <pattern input="l" replacement="Ӏ"/>
+  <pattern input="I" replacement="Ӏ"/>
+  <pattern input="І" replacement="Ӏ"/>
+</inputmethod>
