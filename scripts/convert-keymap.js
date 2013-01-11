@@ -1,13 +1,18 @@
+/* Small scripts that converts jQuery.IME rules files into XML files  
+ *
+ * I understand that `eval` is evil. But in this case, that's ok. 
+ * This is a build script, notihng more. And it is `eval`ing code
+ * that is from the wikimedia foundation. I expect that nothing
+ * horribly dangerous to go through :) */
 var fs = require('fs');
 var xmlbuilder = require('xmlbuilder');
 var _ = require('underscore');
 var findit = require('findit');
 var path = require('path');
 
+/* TODO: Replace with proper options handling */
 var inputPath = process.argv[2];
 var outputPath = process.argv[3];
-
-var methodsIndex = [];
 
 function attrsFromRules( rules ) {
     var attrs = {
@@ -17,7 +22,8 @@ function attrsFromRules( rules ) {
         author: rules.author,
         version: rules.version,
         contextLength: rules.contextLength,
-        maxKeyLength: rules.maxKeyLength
+        maxKeyLength: rules.maxKeyLength,
+        filename: rules.id + '.xml'
     };
 
     _.each( attrs, function( value, key ) {
@@ -29,6 +35,7 @@ function attrsFromRules( rules ) {
 }
 
 function processRules( rules ) {
+    /* Since some rules access and modify other ones */
     jQuery.ime.inputmethods[ rules.id ] = rules;
 
     var attrs = attrsFromRules( rules );
@@ -49,12 +56,12 @@ function processRules( rules ) {
     } );
     xml.root();
     _.each( attrs, function( value, key ) {
-        xml.att( key, value );
+        // Having the filename as an attribute in the file makes no sense
+        if( key !== 'filename' ) {
+            xml.att( key, value );
+        }
     } );
 
-    attrs.filename = rules.id + '.xml';
-    methodsIndex.push( attrs );
-    console.log( methodsIndex );
     var outputFile = path.join( outputPath, attrs.filename );
     var xmlStr = xml.end( { pretty: true } );
 
@@ -66,7 +73,6 @@ function processRules( rules ) {
 }
 
 // Stub jQuery object, has the only method that we want
-// Then we eval the data of the rules file
 var jQuery = {
     ime: {
         register: processRules,
@@ -74,7 +80,7 @@ var jQuery = {
         languages: {},
         sources: {}
     },
-    each: function( iter, fun ) {
+    each: function( iter, fun ) { /* Since jQuery's each takes parameters in reverse order of _'s */
         _.each( iter, function( value, key ) { 
             fun( key, value );
         } );
@@ -85,14 +91,14 @@ var jQuery = {
 findit.find( inputPath ).on( 'file', function( fileName, stat ) {
     if( fileName.match( /\.js$/ ) ) {
         fs.readFile( fileName, 'utf8', function( err, data ) {
-            console.log( "Trying to read " + fileName );
-            eval( data ); 
+            console.log( "Reading " + fileName );
+            eval( data ); // See note about eval on file header
         } );
     }
 } ).on( 'end', function() {
 
     fs.readFile( path.join( inputPath, '../src/jquery.ime.inputmethods.js' ), 'utf8', function( err, data ) {
-        eval( data );
+        eval( data ); // See note about evail on file header
 
         var languagesXML = xmlbuilder.create('languages');
 
