@@ -1,5 +1,31 @@
 <?xml version="1.0"?>
 <inputmethod id="hi-bolnagri" name="बोलनागरी" description="BolNagri phonetic keymap for Devanagari script" author="G Karunakar" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="a" replacement="अ" altGr="true"/>
+  <pattern input="A" replacement="आ" altGr="true"/>
+  <pattern input="i" replacement="इ" altGr="true"/>
+  <pattern input="I" replacement="ई" altGr="true"/>
+  <pattern input="u" replacement="उ" altGr="true"/>
+  <pattern input="U" replacement="ऊ" altGr="true"/>
+  <pattern input="e" replacement="ए" altGr="true"/>
+  <pattern input="E" replacement="ऐ" altGr="true"/>
+  <pattern input="o" replacement="ओ" altGr="true"/>
+  <pattern input="O" replacement="औ" altGr="true"/>
+  <pattern input="r" replacement="ऱ" altGr="true"/>
+  <pattern input="R" replacement="ऋ" altGr="true"/>
+  <pattern input="Z" replacement="ऍ" altGr="true"/>
+  <pattern input="X" replacement="ऑ" altGr="true"/>
+  <pattern input="l" replacement="ॢ" altGr="true"/>
+  <pattern input="L" replacement="ऌ" altGr="true"/>
+  <pattern input="0" replacement="०" altGr="true"/>
+  <pattern input="1" replacement="१" altGr="true"/>
+  <pattern input="2" replacement="२" altGr="true"/>
+  <pattern input="3" replacement="३" altGr="true"/>
+  <pattern input="4" replacement="४" altGr="true"/>
+  <pattern input="5" replacement="५" altGr="true"/>
+  <pattern input="6" replacement="६" altGr="true"/>
+  <pattern input="7" replacement="७" altGr="true"/>
+  <pattern input="8" replacement="८" altGr="true"/>
+  <pattern input="9" replacement="९" altGr="true"/>
   <pattern input="a" replacement="ा"/>
   <pattern input="b" replacement="ब"/>
   <pattern input="c" replacement="च"/>

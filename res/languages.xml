@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <languages>
   <language code="ady" autonym="адыгэбзэ">
-    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" filename="cyrl-palochka.xml"/>
+    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" contextLength="0" maxKeyLength="1" filename="cyrl-palochka.xml"/>
   </language>
   <language code="ahr" autonym="अहिराणी">
     <inputMethod id="mr-transliteration" name="अक्षरांतरण" description="Transliteration keyboard for Marathi script" author="Pathak A B" version="1.0" contextLength="2" maxKeyLength="4" filename="mr-transliteration.xml"/>
-    <inputMethod id="mr-inscript" name="मराठी लिपी" description="InScript keyboard for Marathi script" author="Junaid P V" version="1.0" filename="mr-inscript.xml"/>
+    <inputMethod id="mr-inscript" name="मराठी लिपी" description="InScript keyboard for Marathi script" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="1" filename="mr-inscript.xml"/>
   </language>
   <language code="am" autonym="አማርኛ">
     <inputMethod id="am-transliteration" name="Amharic Transliteration" description="Amharic Transliteration" author="Elfalem [[User:Elfalem]])" version="1.0" contextLength="1" maxKeyLength="2" filename="am-transliteration.xml"/>
@@ -17,14 +17,14 @@
     <inputMethod id="as-inscript" name="ইন্‌স্ক্ৰিপ্ত" description="InScript input method for Assamese according to CDAC&apos;s Enhanced InScript Keyboard Layout 5.2" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="0" filename="as-inscript.xml"/>
   </language>
   <language code="av" autonym="авар">
-    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" filename="cyrl-palochka.xml"/>
+    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" contextLength="0" maxKeyLength="1" filename="cyrl-palochka.xml"/>
   </language>
   <language code="be" autonym="беларуская">
-    <inputMethod id="be-transliteration" name="Belarusian Transliteration" description="Belarusian transliteration per Belarusian winkeys" author="Pavel Selitskas" version="1.0" filename="be-transliteration.xml"/>
+    <inputMethod id="be-transliteration" name="Belarusian Transliteration" description="Belarusian transliteration per Belarusian winkeys" author="Pavel Selitskas" version="1.0" contextLength="0" maxKeyLength="1" filename="be-transliteration.xml"/>
     <inputMethod id="be-latin" name="Belarusian Łacinka" description="Belarusian Latin alphabet input method" author="Pavel Selitskas" version="1.0" contextLength="1" maxKeyLength="1" filename="be-latin.xml"/>
   </language>
   <language code="be-tarask" autonym="беларуская (тарашкевіца)">
-    <inputMethod id="be-transliteration" name="Belarusian Transliteration" description="Belarusian transliteration per Belarusian winkeys" author="Pavel Selitskas" version="1.0" filename="be-transliteration.xml"/>
+    <inputMethod id="be-transliteration" name="Belarusian Transliteration" description="Belarusian transliteration per Belarusian winkeys" author="Pavel Selitskas" version="1.0" contextLength="0" maxKeyLength="1" filename="be-transliteration.xml"/>
     <inputMethod id="be-latin" name="Belarusian Łacinka" description="Belarusian Latin alphabet input method" author="Pavel Selitskas" version="1.0" contextLength="1" maxKeyLength="1" filename="be-latin.xml"/>
   </language>
   <language code="ber" autonym="ⵜⵉⴼⵉⵏⴰⵖ">
@@ -40,7 +40,7 @@
     <inputMethod id="brx-inscript" name="Bodo Inscript" description="Bodo Inscript input method" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="0" filename="brx-inscript.xml"/>
   </language>
   <language code="ce" autonym="нохчийн">
-    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" filename="cyrl-palochka.xml"/>
+    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" contextLength="0" maxKeyLength="1" filename="cyrl-palochka.xml"/>
   </language>
   <language code="da" autonym="Dansk">
     <inputMethod id="da-normforms" name="Dansk" description="Danish input method with most common form transliterated" author="John Erling Blad" version="1.0" contextLength="1" maxKeyLength="3" filename="da-normforms.xml"/>
@@ -66,10 +66,10 @@
   </language>
   <language code="gu" autonym="ગુજરાતી">
     <inputMethod id="gu-transliteration" name="લિપ્યાંતરણ" description="Gujarati transliteration" author="Jaldeep R Vasavada ([[User:JaldeepVasavada]]) / Amir E. Aharoni ([[User:Amire80]])" version="1.0" contextLength="2" maxKeyLength="4" filename="gu-transliteration.xml"/>
-    <inputMethod id="gu-inscript" name="ઇનસ્ક્રિપ્ટ" description="Inscript keyboard for Gujarati script" author="Junaid P V" version="1.0" filename="gu-inscript.xml"/>
+    <inputMethod id="gu-inscript" name="ઇનસ્ક્રિપ્ટ" description="Inscript keyboard for Gujarati script" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="1" filename="gu-inscript.xml"/>
   </language>
   <language code="he" autonym="עברית">
-    <inputMethod id="he-standard-2012-extonly" name="Hebrew 2012" description="Hebrew keyboard according to Israeli Standard 1452" author="Amir E. Aharoni (אָמִיר אֱלִישָׁע אַהֲרוֹנִי, [[User:Amire80]])" version="1.0" filename="he-standard-2012-extonly.xml"/>
+    <inputMethod id="he-standard-2012-extonly" name="Hebrew 2012" description="Hebrew keyboard according to Israeli Standard 1452" author="Amir E. Aharoni (אָמִיר אֱלִישָׁע אַהֲרוֹנִי, [[User:Amire80]])" version="1.0" contextLength="0" maxKeyLength="1" filename="he-standard-2012-extonly.xml"/>
     <inputMethod id="he-standard-2012" name="Hebrew 2012 (from English)" description="Hebrew keyboard according to Israeli Standard 1452" author="Amir E. Aharoni (אָמִיר אֱלִישָׁע אַהֲרוֹנִי, [[User:Amire80]])" version="1.0" contextLength="0" maxKeyLength="0" filename="he-standard-2012.xml"/>
   </language>
   <language code="hi" autonym="हिन्दी">
@@ -93,21 +93,21 @@
     <inputMethod id="ka-transliteration" name="ტრანსლიტერაცია" description="Georgian transliteration" author="Ioseb Dzmanashvili (http://www.code.ge), [[User:Hooman]], Srikanth L" version="1.0" contextLength="3" maxKeyLength="1" filename="ka-transliteration.xml"/>
   </language>
   <language code="kbd" autonym="адыгэбзэ (къэбэрдеибзэ)">
-    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" filename="cyrl-palochka.xml"/>
+    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" contextLength="0" maxKeyLength="1" filename="cyrl-palochka.xml"/>
   </language>
   <language code="kn" autonym="ಕನ್ನಡ">
     <inputMethod id="kn-transliteration" name="ಲಿಪ್ಯಂತರಣ" description="Kannada transliteration" author="M G Harish, HP Nadig " version="1.0" contextLength="5" maxKeyLength="3" filename="kn-transliteration.xml"/>
-    <inputMethod id="kn-inscript" name="ಇನ್‌ಸ್ಕ್ರಿಪ್ಟ್" description="Inscript keyboard for Kannada script" author="Junaid P V" version="1.0" filename="kn-inscript.xml"/>
+    <inputMethod id="kn-inscript" name="ಇನ್‌ಸ್ಕ್ರಿಪ್ಟ್" description="Inscript keyboard for Kannada script" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="1" filename="kn-inscript.xml"/>
     <inputMethod id="kn-kgp" name="ಕಗಪ/ನುಡಿ" description="Kannada kgp/nudi/KP Rao layout" author="Aravinda VK&lt;mail@aravindavk.in&gt;" version="1.0" contextLength="4" maxKeyLength="2" filename="kn-kgp.xml"/>
   </language>
   <language code="kok" autonym="कोंकणी">
-    <inputMethod id="kok-inscript2" name="कोंकणी इनस्क्रिप्ट २" description="Enhanced InScript keyboard for Kokani language" author="Parag Nemade" version="1.0" filename="kok-inscript2.xml"/>
+    <inputMethod id="kok-inscript2" name="कोंकणी इनस्क्रिप्ट २" description="Enhanced InScript keyboard for Kokani language" author="Parag Nemade" version="1.0" contextLength="0" maxKeyLength="1" filename="kok-inscript2.xml"/>
   </language>
   <language code="lbe" autonym="лакку">
-    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" filename="cyrl-palochka.xml"/>
+    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" contextLength="0" maxKeyLength="1" filename="cyrl-palochka.xml"/>
   </language>
   <language code="lez" autonym="лезги">
-    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" filename="cyrl-palochka.xml"/>
+    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" contextLength="0" maxKeyLength="1" filename="cyrl-palochka.xml"/>
   </language>
   <language code="mai" autonym="मैथिली">
     <inputMethod id="mai-inscript" name="इनस्क्रिप्ट" description="InScript keyboard for Maithili" version="1.0" contextLength="0" maxKeyLength="1" filename="mai-inscript.xml"/>
@@ -117,17 +117,17 @@
     <inputMethod id="ml-inscript" name="ഇൻസ്ക്രിപ്റ്റ്" description="Malayalam InScript" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="2" filename="ml-inscript.xml"/>
   </language>
   <language code="mn" autonym="Монгол">
-    <inputMethod id="mn-cyrl" name="Mongolian Cyrillic" description="Mongolian Cyrillic Input Method" author="Kevin K.S. Leung, &lt;sprconan@gmail.com&gt;" version="1.0" filename="mn-cyrl.xml"/>
+    <inputMethod id="mn-cyrl" name="Mongolian Cyrillic" description="Mongolian Cyrillic Input Method" author="Kevin K.S. Leung, &lt;sprconan@gmail.com&gt;" version="1.0" contextLength="0" maxKeyLength="1" filename="mn-cyrl.xml"/>
   </language>
   <language code="mr" autonym="मराठी">
     <inputMethod id="mr-transliteration" name="अक्षरांतरण" description="Transliteration keyboard for Marathi script" author="Pathak A B" version="1.0" contextLength="2" maxKeyLength="4" filename="mr-transliteration.xml"/>
-    <inputMethod id="mr-inscript2" name="मराठी इनस्क्रिप्ट २" description="Enhanced InScript keyboard for Marathi language" author="Parag Nemade" version="1.0" filename="mr-inscript2.xml"/>
-    <inputMethod id="mr-inscript" name="मराठी लिपी" description="InScript keyboard for Marathi script" author="Junaid P V" version="1.0" filename="mr-inscript.xml"/>
+    <inputMethod id="mr-inscript2" name="मराठी इनस्क्रिप्ट २" description="Enhanced InScript keyboard for Marathi language" author="Parag Nemade" version="1.0" contextLength="0" maxKeyLength="1" filename="mr-inscript2.xml"/>
+    <inputMethod id="mr-inscript" name="मराठी लिपी" description="InScript keyboard for Marathi script" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="1" filename="mr-inscript.xml"/>
   </language>
   <language code="ne" autonym="नेपाली">
     <inputMethod id="ne-transliteration" name="लिप्यंतरण" description="Nepali transliteration" author="Junaid P V ([[user:Junaidpv]]) and Bhawani Gautam ([[user:Bhawani Gautam]])" version="1.0" contextLength="4" maxKeyLength="1" filename="ne-transliteration.xml"/>
-    <inputMethod id="ne-inscript2" name="नेपाळी इनस्क्रिप्ट २" description="Enhanced InScript keyboard for Nepali language" author="Parag Nemade" version="1.0" filename="ne-inscript2.xml"/>
-    <inputMethod id="ne-inscript" name="इनस्क्रिप्ट" description="InScript keyboard for Nepali script" author="Bhawani Gautam" version="1.0" filename="ne-inscript.xml"/>
+    <inputMethod id="ne-inscript2" name="नेपाळी इनस्क्रिप्ट २" description="Enhanced InScript keyboard for Nepali language" author="Parag Nemade" version="1.0" contextLength="0" maxKeyLength="1" filename="ne-inscript2.xml"/>
+    <inputMethod id="ne-inscript" name="इनस्क्रिप्ट" description="InScript keyboard for Nepali script" author="Bhawani Gautam" version="1.0" contextLength="0" maxKeyLength="1" filename="ne-inscript.xml"/>
   </language>
   <language code="new" autonym="नेपाल भाषा">
     <inputMethod id="hi-transliteration" name="लिप्यंतरण" description="Transliteration keyboard for Devanagari script" author="Junaid P V" version="1.0" contextLength="1" maxKeyLength="3" filename="hi-transliteration.xml"/>
@@ -135,42 +135,42 @@
   </language>
   <language code="no" autonym="Norsk">
     <inputMethod id="no-normforms" name="Norsk" description="Norwegian input method with most common form transliterated" author="John Erling Blad" version="1.0" contextLength="1" maxKeyLength="3" filename="no-normforms.xml"/>
-    <inputMethod id="no-tildeforms" name="Norsk" description="Norwegian input method with initial tilde triggering transliteration" author="John Erling Blad" version="1.0" maxKeyLength="3" filename="no-tildeforms.xml"/>
+    <inputMethod id="no-tildeforms" name="Norsk" description="Norwegian input method with initial tilde triggering transliteration" author="John Erling Blad" version="1.0" contextLength="0" maxKeyLength="3" filename="no-tildeforms.xml"/>
   </language>
   <language code="nb" autonym="Norsk (bokmål)">
     <inputMethod id="no-normforms" name="Norsk" description="Norwegian input method with most common form transliterated" author="John Erling Blad" version="1.0" contextLength="1" maxKeyLength="3" filename="no-normforms.xml"/>
-    <inputMethod id="no-tildeforms" name="Norsk" description="Norwegian input method with initial tilde triggering transliteration" author="John Erling Blad" version="1.0" maxKeyLength="3" filename="no-tildeforms.xml"/>
+    <inputMethod id="no-tildeforms" name="Norsk" description="Norwegian input method with initial tilde triggering transliteration" author="John Erling Blad" version="1.0" contextLength="0" maxKeyLength="3" filename="no-tildeforms.xml"/>
   </language>
   <language code="nn" autonym="Norsk (nynorsk)">
     <inputMethod id="no-normforms" name="Norsk" description="Norwegian input method with most common form transliterated" author="John Erling Blad" version="1.0" contextLength="1" maxKeyLength="3" filename="no-normforms.xml"/>
-    <inputMethod id="no-tildeforms" name="Norsk" description="Norwegian input method with initial tilde triggering transliteration" author="John Erling Blad" version="1.0" maxKeyLength="3" filename="no-tildeforms.xml"/>
+    <inputMethod id="no-tildeforms" name="Norsk" description="Norwegian input method with initial tilde triggering transliteration" author="John Erling Blad" version="1.0" contextLength="0" maxKeyLength="3" filename="no-tildeforms.xml"/>
   </language>
   <language code="or" autonym="ଓଡ଼ିଆ">
     <inputMethod id="or-transliteration" name="Odiya Transliteration" description="Odiya transliteration" author="Junaid P V and Subhashish Panigrahi" version="1.0" contextLength="4" maxKeyLength="2" filename="or-transliteration.xml"/>
     <inputMethod id="or-lekhani" name="Odia Lekhani" description="Odia Lekhani phonetic input method" author="Junaid P V and Subhashish Panigrahi" version="1.0" contextLength="4" maxKeyLength="2" filename="or-lekhani.xml"/>
-    <inputMethod id="or-inscript" name="Odiya InScript" description="InScript keyboard for Odiya script" author="Junaid P V" version="1.0" filename="or-inscript.xml"/>
+    <inputMethod id="or-inscript" name="Odiya InScript" description="InScript keyboard for Odiya script" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="1" filename="or-inscript.xml"/>
   </language>
   <language code="pa" autonym="ਪੰਜਾਬੀ">
     <inputMethod id="pa-transliteration" name="Punjabi Transliteration" description="Punjabi transliteration" author="Amir E. Aharoni, inputs from Saurabh Choudhary and Surinder Wadhawan" version="1.0" contextLength="2" maxKeyLength="4" filename="pa-transliteration.xml"/>
-    <inputMethod id="pa-inscript" name="Punjabi InScript" description="InScript keyboard for Punjabi script" author="" version="1.0" filename="pa-inscript.xml"/>
-    <inputMethod id="pa-phonetic" name="Punjabi Phonetic" description="Punjabi Phonetic" author="" version="1.0" filename="pa-phonetic.xml"/>
+    <inputMethod id="pa-inscript" name="Punjabi InScript" description="InScript keyboard for Punjabi script" author="" version="1.0" contextLength="0" maxKeyLength="1" filename="pa-inscript.xml"/>
+    <inputMethod id="pa-phonetic" name="Punjabi Phonetic" description="Punjabi Phonetic" author="" version="1.0" contextLength="0" maxKeyLength="1" filename="pa-phonetic.xml"/>
   </language>
   <language code="rif" autonym="ⵜⵉⴼⵉⵏⴰⵖ">
     <inputMethod id="ber-tfng" name="Tifinagh Transliteration" description="Transliteration input method for Tifinagh script" author="" version="1.0" contextLength="0" maxKeyLength="0" filename="ber-tfng.xml"/>
   </language>
   <language code="ru" autonym="русский">
-    <inputMethod id="ru-jcuken" name="Русский - ЙЦУКЕН" description="Стандартная русская раскладка" author="Amir (Алексей) Aharoni" version="1.0" filename="ru-jcuken.xml"/>
+    <inputMethod id="ru-jcuken" name="Русский - ЙЦУКЕН" description="Стандартная русская раскладка" author="Amir (Алексей) Aharoni" version="1.0" contextLength="0" maxKeyLength="1" filename="ru-jcuken.xml"/>
   </language>
   <language code="sah" autonym="саха тыла">
-    <inputMethod id="sah-transliteration" name="Sakha Transliteration" description="Sakha transliteration" author="Amir (Алексей) Aharoni" version="1.0" filename="sah-transliteration.xml"/>
+    <inputMethod id="sah-transliteration" name="Sakha Transliteration" description="Sakha transliteration" author="Amir (Алексей) Aharoni" version="1.0" contextLength="0" maxKeyLength="1" filename="sah-transliteration.xml"/>
   </language>
   <language code="sa" autonym="संस्कृत">
     <inputMethod id="sa-transliteration" name="Sanskrit Transliteration" description="Sanskrit transliteration" author="Junaid P V and Naveen Shankar" version="1.0" contextLength="4" maxKeyLength="2" filename="sa-transliteration.xml"/>
-    <inputMethod id="sa-inscript2" name="संस्कृत इनस्क्रिप्ट २" description="Enhanced InScript keyboard for Sanskrit language" author="Parag Nemade" version="1.0" filename="sa-inscript2.xml"/>
-    <inputMethod id="sa-inscript" name="Sanskrit InScript" description="Inscript keyboard for Sanskrit script" author="Junaid P V" version="1.0" filename="sa-inscript.xml"/>
+    <inputMethod id="sa-inscript2" name="संस्कृत इनस्क्रिप्ट २" description="Enhanced InScript keyboard for Sanskrit language" author="Parag Nemade" version="1.0" contextLength="0" maxKeyLength="1" filename="sa-inscript2.xml"/>
+    <inputMethod id="sa-inscript" name="Sanskrit InScript" description="Inscript keyboard for Sanskrit script" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="1" filename="sa-inscript.xml"/>
   </language>
   <language code="se" autonym="Davvisámegiella">
-    <inputMethod id="se-normforms" name="Davvisámegiella" description="Northern Sami input method" author="John Erling Blad" version="1.0" maxKeyLength="3" filename="se-normforms.xml"/>
+    <inputMethod id="se-normforms" name="Davvisámegiella" description="Northern Sami input method" author="John Erling Blad" version="1.0" contextLength="0" maxKeyLength="3" filename="se-normforms.xml"/>
   </language>
   <language code="shi" autonym="ⵜⵉⴼⵉⵏⴰⵖ">
     <inputMethod id="ber-tfng" name="Tifinagh Transliteration" description="Transliteration input method for Tifinagh script" author="" version="1.0" contextLength="0" maxKeyLength="0" filename="ber-tfng.xml"/>
@@ -193,12 +193,12 @@
   </language>
   <language code="te" autonym="తెలుగు">
     <inputMethod id="te-transliteration" name="లిప్యంతరీకరణ" description="Telugu Transliteration based on RTS" author="Veeven and Junaid P V" version="1.0" contextLength="1" maxKeyLength="4" filename="te-transliteration.xml"/>
-    <inputMethod id="te-inscript" name="ఇన్‍స్క్రిప్ట్" description="Inscript keyboard for Telugu script" author="Veeven" version="1.0" filename="te-inscript.xml"/>
+    <inputMethod id="te-inscript" name="ఇన్‍స్క్రిప్ట్" description="Inscript keyboard for Telugu script" author="Veeven" version="1.0" contextLength="0" maxKeyLength="1" filename="te-inscript.xml"/>
   </language>
   <language code="tkr" autonym="цӀаӀхна миз">
-    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" filename="cyrl-palochka.xml"/>
+    <inputMethod id="cyrl-palochka" name="Cyrillic Palochka" description="Palochka input method for Cyrillic" author="Amir E. Aharoni" version="1.0" contextLength="0" maxKeyLength="1" filename="cyrl-palochka.xml"/>
   </language>
   <language code="ur" autonym="اردو">
-    <inputMethod id="ur-transliteration" name="Urdu Transliteration" description="Urdu Transliteration based on RTS" author="Mohammed Imran Tabani" version="1.0" filename="ur-transliteration.xml"/>
+    <inputMethod id="ur-transliteration" name="Urdu Transliteration" description="Urdu Transliteration based on RTS" author="Mohammed Imran Tabani" version="1.0" contextLength="0" maxKeyLength="1" filename="ur-transliteration.xml"/>
   </language>
 </languages>

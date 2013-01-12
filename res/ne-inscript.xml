@@ -1,5 +1,16 @@
 <?xml version="1.0"?>
-<inputmethod id="ne-inscript" name="इनस्क्रिप्ट" description="InScript keyboard for Nepali script" author="Bhawani Gautam" version="1.0">
+<inputmethod id="ne-inscript" name="इनस्क्रिप्ट" description="InScript keyboard for Nepali script" author="Bhawani Gautam" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="F" replacement="ऌ" altGr="true"/>
+  <pattern input="\&gt;" context="" replacement="ऽ" altGr="true"/>
+  <pattern input="X" replacement="ॐ" altGr="true"/>
+  <pattern input="e" replacement="॑" altGr="true"/>
+  <pattern input="d" replacement="॒" altGr="true"/>
+  <pattern input="R" replacement="ॡ" altGr="true"/>
+  <pattern input="f" replacement="ॢ" altGr="true"/>
+  <pattern input="r" replacement="ॣ" altGr="true"/>
+  <pattern input="\." replacement="॥" altGr="true"/>
+  <pattern input="\@" context="" replacement="ॅ" altGr="true"/>
+  <pattern input="4" replacement="₹" altGr="true"/>
   <pattern input="X" replacement="ँ"/>
   <pattern input="x" replacement="ं"/>
   <pattern input="_" replacement="ः"/>

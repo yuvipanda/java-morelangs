@@ -1,5 +1,24 @@
 <?xml version="1.0"?>
 <inputmethod id="mai-inscript" name="इनस्क्रिप्ट" description="InScript keyboard for Maithili" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="F" replacement="ऌ" altGr="true"/>
+  <pattern input="N" replacement="ळ" altGr="true"/>
+  <pattern input="\&gt;" replacement="ऽ" altGr="true"/>
+  <pattern input="\=" replacement="ॄ" altGr="true"/>
+  <pattern input="X" replacement="ॐ" altGr="true"/>
+  <pattern input="e" replacement="॑" altGr="true"/>
+  <pattern input="d" replacement="॒" altGr="true"/>
+  <pattern input="k" replacement="क़" altGr="true"/>
+  <pattern input="K" replacement="ख़" altGr="true"/>
+  <pattern input="i" replacement="ग़" altGr="true"/>
+  <pattern input="p" replacement="ज़" altGr="true"/>
+  <pattern input="\[" replacement="ड़" altGr="true"/>
+  <pattern input="\+" replacement="ॠ" altGr="true"/>
+  <pattern input="R" replacement="ॡ" altGr="true"/>
+  <pattern input="f" replacement="ॢ" altGr="true"/>
+  <pattern input="r" replacement="ॣ" altGr="true"/>
+  <pattern input="\." replacement="॥" altGr="true"/>
+  <pattern input="," replacement="॰" altGr="true"/>
+  <pattern input="\$" replacement="₹" altGr="true"/>
   <pattern input="z" replacement="ʼ"/>
   <pattern input="x" replacement="ं"/>
   <pattern input="_" replacement="ः"/>

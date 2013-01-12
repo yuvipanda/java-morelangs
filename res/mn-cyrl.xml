@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<inputmethod id="mn-cyrl" name="Mongolian Cyrillic" description="Mongolian Cyrillic Input Method" author="Kevin K.S. Leung, &lt;sprconan@gmail.com&gt;" version="1.0">
+<inputmethod id="mn-cyrl" name="Mongolian Cyrillic" description="Mongolian Cyrillic Input Method" author="Kevin K.S. Leung, &lt;sprconan@gmail.com&gt;" version="1.0" contextLength="0" maxKeyLength="1">
   <pattern input="Q" replacement="Ф"/>
   <pattern input="W" replacement="Ц"/>
   <pattern input="E" replacement="У"/>

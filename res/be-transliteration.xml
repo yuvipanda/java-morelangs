@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<inputmethod id="be-transliteration" name="Belarusian Transliteration" description="Belarusian transliteration per Belarusian winkeys" author="Pavel Selitskas" version="1.0">
+<inputmethod id="be-transliteration" name="Belarusian Transliteration" description="Belarusian transliteration per Belarusian winkeys" author="Pavel Selitskas" version="1.0" contextLength="0" maxKeyLength="1">
   <pattern input="~" replacement="Ё"/>
   <pattern input="Q" replacement="Й"/>
   <pattern input="W" replacement="Ц"/>
@@ -11,8 +11,8 @@
   <pattern input="I" replacement="Ш"/>
   <pattern input="O" replacement="Ў"/>
   <pattern input="P" replacement="З"/>
-  <pattern input="{" replacement="Х"/>
-  <pattern input="}" replacement="&apos;"/>
+  <pattern input="\{" replacement="Х"/>
+  <pattern input="\}" replacement="&apos;"/>
   <pattern input="A" replacement="Ф"/>
   <pattern input="S" replacement="Ы"/>
   <pattern input="D" replacement="В"/>

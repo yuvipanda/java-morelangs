@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<inputmethod id="ru-jcuken" name="Русский - ЙЦУКЕН" description="Стандартная русская раскладка" author="Amir (Алексей) Aharoni" version="1.0">
+<inputmethod id="ru-jcuken" name="Русский - ЙЦУКЕН" description="Стандартная русская раскладка" author="Amir (Алексей) Aharoni" version="1.0" contextLength="0" maxKeyLength="1">
   <pattern input="Q" replacement="Й"/>
   <pattern input="W" replacement="Ц"/>
   <pattern input="E" replacement="У"/>

@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
-<inputmethod id="or-inscript" name="Odiya InScript" description="InScript keyboard for Odiya script" author="Junaid P V" version="1.0">
+<inputmethod id="or-inscript" name="Odiya InScript" description="InScript keyboard for Odiya script" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="F" replacement="ଌ" altGr="true"/>
+  <pattern input="b" replacement="ଵ" altGr="true"/>
+  <pattern input="\&gt;" replacement="ଽ" altGr="true"/>
+  <pattern input="\=" replacement="ୄ" altGr="true"/>
+  <pattern input="\[" replacement="ଡ଼" altGr="true"/>
+  <pattern input="\{" replacement="ଢ଼" altGr="true"/>
+  <pattern input="\+" replacement="ୠ" altGr="true"/>
+  <pattern input="R" replacement="ୡ" altGr="true"/>
+  <pattern input="f" replacement="ୢ" altGr="true"/>
+  <pattern input="r" replacement="ୣ" altGr="true"/>
+  <pattern input="\." replacement="୥" altGr="true"/>
+  <pattern input="x" replacement="୰" altGr="true"/>
+  <pattern input="\$" replacement="₹" altGr="true"/>
   <pattern input="X" replacement="ଁ"/>
   <pattern input="x" replacement="ଂ"/>
   <pattern input="_" replacement="ଃ"/>

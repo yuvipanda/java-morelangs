@@ -1,5 +1,43 @@
 <?xml version="1.0"?>
 <inputmethod id="bn-nkb" name="National Keyboard" description="Bengali National Keyboard input method" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="0">
+  <pattern input="1" replacement="৴" altGr="true"/>
+  <pattern input="2" replacement="৵" altGr="true"/>
+  <pattern input="3" replacement="৶" altGr="true"/>
+  <pattern input="4" replacement="৳" altGr="true"/>
+  <pattern input="5" replacement="৷" altGr="true"/>
+  <pattern input="6" replacement="৸" altGr="true"/>
+  <pattern input="7" replacement="ं" altGr="true"/>
+  <pattern input="0" replacement="৹" altGr="true"/>
+  <pattern input="\-" replacement="‌" altGr="true"/>
+  <pattern input="\=" replacement="‍" altGr="true"/>
+  <pattern input="q" replacement="ৢ" altGr="true"/>
+  <pattern input="w" replacement="্য" altGr="true"/>
+  <pattern input="e" replacement="ৄ" altGr="true"/>
+  <pattern input="i" replacement="ঽ" altGr="true"/>
+  <pattern input="a" replacement="ঋ" altGr="true"/>
+  <pattern input="s" replacement="উ" altGr="true"/>
+  <pattern input="d" replacement="ই" altGr="true"/>
+  <pattern input="f" replacement="ৰ" altGr="true"/>
+  <pattern input="g" replacement="॥" altGr="true"/>
+  <pattern input="h" replacement="আ" altGr="true"/>
+  <pattern input="j" replacement="঱" altGr="true"/>
+  <pattern input="k" replacement="ঢ" altGr="true"/>
+  <pattern input="l" replacement="ঌ" altGr="true"/>
+  <pattern input="z" replacement="৺" altGr="true"/>
+  <pattern input="x" replacement="ও" altGr="true"/>
+  <pattern input="c" replacement="এ" altGr="true"/>
+  <pattern input="v" replacement="্র" altGr="true"/>
+  <pattern input="\." replacement="়" altGr="true"/>
+  <pattern input="\$" replacement="৲" altGr="true"/>
+  <pattern input="\^" replacement="঳" altGr="true"/>
+  <pattern input="Q" replacement="ৣ" altGr="true"/>
+  <pattern input="A" replacement="ৠ" altGr="true"/>
+  <pattern input="S" replacement="ঊ" altGr="true"/>
+  <pattern input="D" replacement="ঈ" altGr="true"/>
+  <pattern input="F" replacement="ৱ" altGr="true"/>
+  <pattern input="L" replacement="ৡ" altGr="true"/>
+  <pattern input="X" replacement="ঔ" altGr="true"/>
+  <pattern input="C" replacement="ঐ" altGr="true"/>
   <pattern input="1" replacement="১"/>
   <pattern input="2" replacement="২"/>
   <pattern input="3" replacement="৩"/>

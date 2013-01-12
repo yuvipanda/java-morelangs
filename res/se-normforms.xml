@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<inputmethod id="se-normforms" name="Davvisámegiella" description="Northern Sami input method" author="John Erling Blad" version="1.0" maxKeyLength="3">
+<inputmethod id="se-normforms" name="Davvisámegiella" description="Northern Sami input method" author="John Erling Blad" version="1.0" contextLength="0" maxKeyLength="3">
   <pattern input="&apos;a" replacement="á"/>
   <pattern input="&apos;A" replacement="Á"/>
   <pattern input="~c" replacement="č"/>

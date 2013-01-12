@@ -21,8 +21,8 @@ function attrsFromRules( rules ) {
         description: rules.description,
         author: rules.author,
         version: rules.version,
-        contextLength: rules.contextLength,
-        maxKeyLength: rules.maxKeyLength,
+        contextLength: typeof rules.contextLength !== 'undefined' ? rules.contextLength : 0,
+        maxKeyLength: typeof rules.maxKeyLength !== 'undefined' ? rules.maxKeyLength : 1,
         filename: rules.id + '.xml'
     };
 
@@ -40,6 +40,23 @@ function processRules( rules ) {
 
     var attrs = attrsFromRules( rules );
     var xml = xmlbuilder.create('inputmethod');
+
+    _.each( rules.patterns_x, function( pattern ) {
+        if( pattern.length === 2) {
+            xml.ele( 'pattern', {
+                input: pattern[0],
+                replacement: pattern[1],
+                altGr: true
+            } );
+        } else {
+            xml.ele( 'pattern', {
+                input: pattern[0],
+                context: pattern[1],
+                replacement: pattern[2],
+                altGr: true
+            } );
+        }
+    } );
     _.each( rules.patterns, function( pattern ) {
         if( pattern.length === 2) {
             xml.ele( 'pattern', {

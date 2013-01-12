@@ -1,5 +1,19 @@
 <?xml version="1.0"?>
 <inputmethod id="brx-inscript" name="Bodo Inscript" description="Bodo Inscript input method" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="0">
+  <pattern input="F" replacement="ऌ" altGr="true"/>
+  <pattern input="N" replacement="ळ" altGr="true"/>
+  <pattern input="\&gt;" replacement="ऽ" altGr="true"/>
+  <pattern input="\=" replacement="ॄ" altGr="true"/>
+  <pattern input="X" replacement="ॐ" altGr="true"/>
+  <pattern input="e" replacement="॑" altGr="true"/>
+  <pattern input="d" replacement="॒" altGr="true"/>
+  <pattern input="\+" replacement="ॠ" altGr="true"/>
+  <pattern input="R" replacement="ॡ" altGr="true"/>
+  <pattern input="f" replacement="ॢ" altGr="true"/>
+  <pattern input="r" replacement="ॣ" altGr="true"/>
+  <pattern input="\." replacement="॥" altGr="true"/>
+  <pattern input="," replacement="॰" altGr="true"/>
+  <pattern input="\$" replacement="₹" altGr="true"/>
   <pattern input="X" replacement="ँ"/>
   <pattern input="x" replacement="ं"/>
   <pattern input="_" replacement="ः"/>

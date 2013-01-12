@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
-<inputmethod id="kn-inscript" name="ಇನ್‌ಸ್ಕ್ರಿಪ್ಟ್" description="Inscript keyboard for Kannada script" author="Junaid P V" version="1.0">
+<inputmethod id="kn-inscript" name="ಇನ್‌ಸ್ಕ್ರಿಪ್ಟ್" description="Inscript keyboard for Kannada script" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="F" replacement="좌" altGr="true"/>
+  <pattern input="\&gt;" replacement="ಽ" altGr="true"/>
+  <pattern input="\=" replacement="ೄ" altGr="true"/>
+  <pattern input="H" replacement="ೞ" altGr="true"/>
+  <pattern input="\+" replacement="ೠ" altGr="true"/>
+  <pattern input="R" replacement="ೡ" altGr="true"/>
+  <pattern input="f" replacement="ೢ" altGr="true"/>
+  <pattern input="r" replacement="ೣ" altGr="true"/>
+  <pattern input="\&gt;" replacement="೤" altGr="true"/>
+  <pattern input="\." replacement="೥" altGr="true"/>
+  <pattern input="u" replacement="ೱ" altGr="true"/>
+  <pattern input="j" replacement="ೲ" altGr="true"/>
+  <pattern input="\$" replacement="₹" altGr="true"/>
   <pattern input="x" replacement="ಂ"/>
   <pattern input="_" replacement="ಃ"/>
   <pattern input="D" replacement="ಅ"/>

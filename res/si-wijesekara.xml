@@ -1,5 +1,12 @@
 <?xml version="1.0"?>
 <inputmethod id="si-wijesekara" name="Sinhalese Wijesekara" description="Wijesekara layout for Sinhalese" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="2">
+  <pattern input="o" replacement="ඳ" altGr="true"/>
+  <pattern input="v" replacement="ඬ" altGr="true"/>
+  <pattern input="&apos;" replacement="෴" altGr="true"/>
+  <pattern input="a" replacement="ෳ" altGr="true"/>
+  <pattern input="\." replacement="ඟ" altGr="true"/>
+  <pattern input="x" replacement="ඦ" altGr="true"/>
+  <pattern input="," replacement="ඏ" altGr="true"/>
   <pattern input="`" replacement="්‍ර"/>
   <pattern input="~" replacement="ර්‍"/>
   <pattern input="q" replacement="ු"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<inputmethod id="pa-inscript" name="Punjabi InScript" description="InScript keyboard for Punjabi script" author="" version="1.0">
+<inputmethod id="pa-inscript" name="Punjabi InScript" description="InScript keyboard for Punjabi script" author="" version="1.0" contextLength="0" maxKeyLength="1">
   <pattern input="1" replacement="੧"/>
   <pattern input="2" replacement="੨"/>
   <pattern input="3" replacement="੩"/>

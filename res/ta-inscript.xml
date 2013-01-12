@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
 <inputmethod id="ta-inscript" name="இன்ஸ்கிரிப்ட்" description="Tamil InScript Keyboard" author="Junaid P V" version="1.0" contextLength="1" maxKeyLength="4">
+  <pattern input="X" replacement="ௐ" altGr="true"/>
+  <pattern input="\)" replacement="௰" altGr="true"/>
+  <pattern input="-" replacement="௱" altGr="true"/>
+  <pattern input="=" replacement="௲" altGr="true"/>
+  <pattern input="n" replacement="௳" altGr="true"/>
+  <pattern input="c" replacement="௴" altGr="true"/>
+  <pattern input="b" replacement="௵" altGr="true"/>
+  <pattern input="h" replacement="௶" altGr="true"/>
+  <pattern input="y" replacement="௷" altGr="true"/>
+  <pattern input="C" replacement="௸" altGr="true"/>
+  <pattern input="," replacement="௹" altGr="true"/>
+  <pattern input="V" replacement="௺" altGr="true"/>
+  <pattern input="4" replacement="₹" altGr="true"/>
   <pattern input="`" replacement="ொ"/>
   <pattern input="~" replacement="ஒ"/>
   <pattern input="&amp;" replacement="க்ஷ"/>

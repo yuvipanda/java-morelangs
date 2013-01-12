@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<inputmethod id="pa-phonetic" name="Punjabi Phonetic" description="Punjabi Phonetic" author="" version="1.0">
+<inputmethod id="pa-phonetic" name="Punjabi Phonetic" description="Punjabi Phonetic" author="" version="1.0" contextLength="0" maxKeyLength="1">
   <pattern input="!" replacement="੧"/>
   <pattern input="1" replacement="1"/>
   <pattern input="@" replacement="੨"/>

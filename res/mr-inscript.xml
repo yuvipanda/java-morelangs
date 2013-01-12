@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
-<inputmethod id="mr-inscript" name="मराठी लिपी" description="InScript keyboard for Marathi script" author="Junaid P V" version="1.0">
+<inputmethod id="mr-inscript" name="मराठी लिपी" description="InScript keyboard for Marathi script" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="F" replacement="ऌ" altGr="true"/>
+  <pattern input="\&gt;" replacement="ऽ" altGr="true"/>
+  <pattern input="\=" replacement="ॄ" altGr="true"/>
+  <pattern input="X" replacement="ॐ" altGr="true"/>
+  <pattern input="e" replacement="॑" altGr="true"/>
+  <pattern input="d" replacement="॒" altGr="true"/>
+  <pattern input="\+" replacement="ॠ" altGr="true"/>
+  <pattern input="R" replacement="ॡ" altGr="true"/>
+  <pattern input="f" replacement="ॢ" altGr="true"/>
+  <pattern input="r" replacement="ॣ" altGr="true"/>
+  <pattern input="\." replacement="॥" altGr="true"/>
+  <pattern input="," replacement="॰" altGr="true"/>
+  <pattern input="\$" replacement="₹" altGr="true"/>
   <pattern input="X" replacement="ँ"/>
   <pattern input="x" replacement="ं"/>
   <pattern input="_" replacement="ः"/>

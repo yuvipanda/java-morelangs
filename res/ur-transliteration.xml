@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<inputmethod id="ur-transliteration" name="Urdu Transliteration" description="Urdu Transliteration based on RTS" author="Mohammed Imran Tabani" version="1.0">
+<inputmethod id="ur-transliteration" name="Urdu Transliteration" description="Urdu Transliteration based on RTS" author="Mohammed Imran Tabani" version="1.0" contextLength="0" maxKeyLength="1">
   <pattern input="x" replacement="ف"/>
   <pattern input="_" replacement="_"/>
   <pattern input="D" replacement="ڑ"/>

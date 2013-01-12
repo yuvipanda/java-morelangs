@@ -150,11 +150,11 @@
   <pattern input="(?:̥)%" replacement="̬"/>
   <pattern input="%" replacement="̥"/>
   <pattern input="@" replacement="̊"/>
-  <pattern input="(?:̼){" replacement="̣"/>
-  <pattern input="(?:̻){" replacement="̼"/>
-  <pattern input="(?:̺){" replacement="̻"/>
-  <pattern input="(?:̪){" replacement="̺"/>
-  <pattern input="{" replacement="̪"/>
+  <pattern input="(?:̼)\{" replacement="̣"/>
+  <pattern input="(?:̻)\{" replacement="̼"/>
+  <pattern input="(?:̺)\{" replacement="̻"/>
+  <pattern input="(?:̪)\{" replacement="̺"/>
+  <pattern input="\{" replacement="̪"/>
   <pattern input="(?:̃)~" replacement="̴"/>
   <pattern input="~" replacement="̃"/>
   <pattern input="(?:̆)\*" replacement="̇"/>

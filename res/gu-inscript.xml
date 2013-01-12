@@ -1,5 +1,16 @@
 <?xml version="1.0"?>
-<inputmethod id="gu-inscript" name="ઇનસ્ક્રિપ્ટ" description="Inscript keyboard for Gujarati script" author="Junaid P V" version="1.0">
+<inputmethod id="gu-inscript" name="ઇનસ્ક્રિપ્ટ" description="Inscript keyboard for Gujarati script" author="Junaid P V" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="F" replacement="ઌ" altGr="true"/>
+  <pattern input="\&gt;" replacement="ઽ" altGr="true"/>
+  <pattern input="\=" replacement="ૄ" altGr="true"/>
+  <pattern input="X" replacement="ૐ" altGr="true"/>
+  <pattern input="\+" replacement="ૠ" altGr="true"/>
+  <pattern input="R" replacement="ૡ" altGr="true"/>
+  <pattern input="f" replacement="ૢ" altGr="true"/>
+  <pattern input="r" replacement="ૣ" altGr="true"/>
+  <pattern input="\." replacement="૥" altGr="true"/>
+  <pattern input="\&lt;" replacement="૱" altGr="true"/>
+  <pattern input="$" replacement="₹" altGr="true"/>
   <pattern input="X" replacement="ઁ"/>
   <pattern input="x" replacement="ં"/>
   <pattern input="_" replacement="ઃ"/>

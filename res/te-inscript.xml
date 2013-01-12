@@ -1,5 +1,18 @@
 <?xml version="1.0"?>
-<inputmethod id="te-inscript" name="ఇన్‍స్క్రిప్ట్" description="Inscript keyboard for Telugu script" author="Veeven" version="1.0">
+<inputmethod id="te-inscript" name="ఇన్‍స్క్రిప్ట్" description="Inscript keyboard for Telugu script" author="Veeven" version="1.0" contextLength="0" maxKeyLength="1">
+  <pattern input="X" replacement="ॐ" altGr="true"/>
+  <pattern input="\;" replacement="ౘ" altGr="true"/>
+  <pattern input="p" replacement="ౙ" altGr="true"/>
+  <pattern input="f" replacement="ౢ" altGr="true"/>
+  <pattern input="r" replacement="ౣ" altGr="true"/>
+  <pattern input="F" replacement="ఌ" altGr="true"/>
+  <pattern input="R" replacement="ౡ" altGr="true"/>
+  <pattern input="\." replacement="॥" altGr="true"/>
+  <pattern input="\&gt;" replacement="ఽ" altGr="true"/>
+  <pattern input="2" replacement="‌" altGr="true"/>
+  <pattern input="4" replacement="₹" altGr="true"/>
+  <pattern input="\=" replacement="ౄ" altGr="true"/>
+  <pattern input="\+" replacement="ౠ" altGr="true"/>
   <pattern input="D" replacement="అ"/>
   <pattern input="E" replacement="ఆ"/>
   <pattern input="F" replacement="ఇ"/>
