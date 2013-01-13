@@ -125,7 +125,6 @@ public class InputMethod  {
         for(int i=0; i< patternsXML.getLength(); i++) {
            NamedNodeMap attribs = patternsXML.item(i).getAttributes();
            InputPattern p;
-           System.out.println(attribs.getNamedItem("input").getTextContent());
            String inputPattern = attribs.getNamedItem("input").getTextContent();
            String replacement = attribs.getNamedItem("replacement").getTextContent();
            String context = null;
