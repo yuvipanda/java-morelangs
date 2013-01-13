@@ -1,3 +1,5 @@
+package org.wikimedia.morelangs;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.ObjectInputStream.GetField;
@@ -111,7 +113,7 @@ public class InputMethod  {
     }
     
     public static InputMethod fromName(String name) throws SAXException, IOException, ParserConfigurationException {
-        return fromFile(InputMethod.class.getClassLoader().getResourceAsStream("res/" + name + ".xml"));
+        return fromFile(InputMethod.class.getClassLoader().getResourceAsStream("org/wikimedia/morelangs/res/" + name + ".xml"));
     }
     public static InputMethod fromFile(InputStream input) throws SAXException, IOException, ParserConfigurationException {
         Document doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(input);

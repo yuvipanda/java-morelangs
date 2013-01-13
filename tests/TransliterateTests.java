@@ -14,6 +14,7 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 import org.w3c.dom.*;
+import org.wikimedia.morelangs.InputMethod;
 import org.xml.sax.SAXException;
 
 
