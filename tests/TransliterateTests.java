@@ -9,13 +9,17 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
 import org.w3c.dom.*;
 import org.xml.sax.SAXException;
 
 
-public class ParsingTests {
+@RunWith(Parameterized.class)
+public class TransliterateTests {
 
-    int firstDivergence(String str1, String str2) {
+    static int firstDivergence(String str1, String str2) {
         int length = str1.length() > str2.length() ? str2.length() : str1.length();
         for(int i = 0; i < length; i++) {
             if(str1.charAt(i) != str2.charAt(i)) {
@@ -24,7 +28,7 @@ public class ParsingTests {
         }
         return length - 1; // Default
     }
-    String transliterateAll(InputMethod im, String input, ArrayList<Boolean> altGr) {
+    static String transliterateAll(InputMethod im, String input, ArrayList<Boolean> altGr) {
         String curOutput = "";
         String replacement;
         String context = "";
@@ -44,8 +48,10 @@ public class ParsingTests {
         }
         return curOutput;
     }
-    @Test
-    public void testFromFile() throws FileNotFoundException, SAXException, IOException, ParserConfigurationException {
+    
+    @Parameters
+    public static ArrayList<Object[]> data() throws SAXException, IOException, ParserConfigurationException {
+        ArrayList<Object[]> data = new ArrayList<Object[]>();
         Document fixturesDoc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse("/Users/yuvipanda/code/android/moreLangs/tests/fixtures.xml");
         NodeList fixtures = fixturesDoc.getElementsByTagName("fixture");
         for(int i = 0; i < fixtures.getLength(); i++) {
@@ -77,13 +83,30 @@ public class ParsingTests {
                            altGr.add(false); 
                         }
                     }
-                    String output = transliterateAll(im, input, altGr);
-                    assertEquals(expectedOutput, output);
-                    System.out.println("Success!" + description);
+                    data.add(new Object[] { im, input, expectedOutput, description, altGr });
                 }
             }
-              
         }
+        return data;
+    }
+    
+    
+    InputMethod im;
+    String expectedOutput;
+    String description;
+    String input;
+    ArrayList<Boolean> altGr;
+    public TransliterateTests(InputMethod im, String input, String expectedOutput, String description, ArrayList<Boolean> altGr) {
+        this.im = im;
+        this.input = input;
+        this.expectedOutput = expectedOutput;
+        this.altGr = altGr;
+    }
+    
+    @Test
+    public void testTransliterate() throws FileNotFoundException, SAXException, IOException, ParserConfigurationException {
+        String output = transliterateAll(im, input, altGr);
+        assertEquals(expectedOutput, output);
     }
 
 }
