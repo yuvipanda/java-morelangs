@@ -1,5 +1,6 @@
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.ObjectInputStream.GetField;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -109,6 +110,9 @@ public class InputMethod  {
        return input;
     }
     
+    public static InputMethod fromName(String name) throws SAXException, IOException, ParserConfigurationException {
+        return fromFile(InputMethod.class.getClassLoader().getResourceAsStream("res/" + name + ".xml"));
+    }
     public static InputMethod fromFile(InputStream input) throws SAXException, IOException, ParserConfigurationException {
         Document doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(input);
         Node root = doc.getDocumentElement();

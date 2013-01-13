@@ -3,6 +3,7 @@ import static org.junit.Assert.*;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -52,7 +53,8 @@ public class TransliterateTests {
     @Parameters
     public static ArrayList<Object[]> data() throws SAXException, IOException, ParserConfigurationException {
         ArrayList<Object[]> data = new ArrayList<Object[]>();
-        Document fixturesDoc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse("/Users/yuvipanda/code/android/moreLangs/tests/fixtures.xml");
+        InputStream fixturesFile = TransliterateTests.class.getClassLoader().getResourceAsStream("fixtures.xml");
+        Document fixturesDoc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(fixturesFile);
         NodeList fixtures = fixturesDoc.getElementsByTagName("fixture");
         for(int i = 0; i < fixtures.getLength(); i++) {
             Node fixture = fixtures.item(i);
@@ -60,7 +62,8 @@ public class TransliterateTests {
             if(name.equals("si-wijesekara")) {
                 name.length();
             }
-            InputMethod im = InputMethod.fromFile(new FileInputStream("/Users/yuvipanda/code/android/moreLangs/res/" + name + ".xml"));
+//            InputMethod im = InputMethod.fromFile(new FileInputStream("/Users/yuvipanda/code/android/moreLangs/res/" + name + ".xml"));
+            InputMethod im = InputMethod.fromName(name);
             NodeList tests = fixture.getChildNodes();
             for(int j = 0; j < tests.getLength(); j++) {
                 Node test = tests.item(j);
