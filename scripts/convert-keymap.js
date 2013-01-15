@@ -10,6 +10,30 @@ var _ = require('underscore');
 var findit = require('findit');
 var path = require('path');
 
+var translitMethods = [
+    'mr-transliteration',
+    'am-transliteration',
+    'as-transliteration',
+    'as-avro',
+    'as-bornona',
+    'hi-transliteration',
+    'hi-bolnagri',
+    'ipa-sil',
+    'kn-transliteration',
+    'kn-kgp',
+    'ml-transliteration',
+    'ne-transliteration',
+    'or-transliteration',
+    'or-lekhani',
+    'pa-transliteration',
+    'pa-phonetic',
+    'sa-transliteration',
+    'si-singlish',
+    'ta-transliteration',
+    'te-transliteration',
+    'eo-transliteration'
+];
+
 /* TODO: Replace with proper options handling */
 var inputPath = process.argv[2];
 var outputPath = process.argv[3];
@@ -121,10 +145,16 @@ findit.find( inputPath ).on( 'file', function( fileName, stat ) {
         var namesXML = resourcesXML.ele( 'string-array', { name: 'transliterate_inputmethod_names' } );
         var valuesXML = resourcesXML.ele( 'string-array', { name: 'transliterate_inputmethod_values' } );
 
+        // Add value to disable it
+        namesXML.ele( 'item' ).text( 'None' );
+        valuesXML.ele( 'item' ).text( '' );
+
         _.each( jQuery.ime.languages, function( value, key ) {
             _.each( value.inputmethods, function( imName ) {
-                namesXML.ele( 'item' ).text( value.autonym + ' - ' + jQuery.ime.inputmethods[ imName ].name );
-                valuesXML.ele( 'item' ).text( imName );
+                if( _.contains( translitMethods, imName ) ) {
+                    namesXML.ele( 'item' ).text( value.autonym + ' - ' + jQuery.ime.inputmethods[ imName ].name );
+                    valuesXML.ele( 'item' ).text( imName );
+                }
             } );
         } );
         
