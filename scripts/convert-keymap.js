@@ -117,22 +117,20 @@ findit.find( inputPath ).on( 'file', function( fileName, stat ) {
     fs.readFile( path.join( inputPath, '../src/jquery.ime.inputmethods.js' ), 'utf8', function( err, data ) {
         eval( data ); // See note about evail on file header
 
-        var languagesXML = xmlbuilder.create('languages');
+        var resourcesXML = xmlbuilder.create('resources');
+        var namesXML = resourcesXML.ele( 'string-array', { name: 'transliterate_inputmethod_names' } );
+        var valuesXML = resourcesXML.ele( 'string-array', { name: 'transliterate_inputmethod_values' } );
 
         _.each( jQuery.ime.languages, function( value, key ) {
-            var langXML = languagesXML.ele( 'language' ).att( 'code', key ).att( 'autonym', value.autonym );
             _.each( value.inputmethods, function( imName ) {
-                var imXML = langXML.ele( 'inputMethod' );
-                var attrs = attrsFromRules( jQuery.ime.inputmethods[ imName ] );
-                _.each( attrs, function( value, key ) {
-                    imXML.att( key, value );
-                } );
+                namesXML.ele( 'item' ).text( value.autonym + ' - ' + jQuery.ime.inputmethods[ imName ].name );
+                valuesXML.ele( 'item' ).text( imName );
             } );
         } );
         
 
-        var xmlString = languagesXML.end( { pretty: true } );
-        fs.writeFile( path.join( outputPath, 'languages.xml' ), xmlString, function( err ) {
+        var xmlString = resourcesXML.end( { pretty: true } );
+        fs.writeFile( path.join( outputPath, 'transliteration.xml' ), xmlString, function( err ) {
             if( err ) {
                 console.log( err );
             }
