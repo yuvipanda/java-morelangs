@@ -112,11 +112,27 @@ public class InputMethod  {
        return input;
     }
     
-    public static InputMethod fromName(String name) throws SAXException, IOException, ParserConfigurationException {
-        return fromFile(InputMethod.class.getClassLoader().getResourceAsStream("org/wikimedia/morelangs/res/" + name + ".xml"));
+    public static InputMethod fromName(String name) throws IllegalArgumentException {
+        InputStream stream = InputMethod.class.getClassLoader().getResourceAsStream("org/wikimedia/morelangs/res/" + name + ".xml");
+            return fromFile(stream);
     }
-    public static InputMethod fromFile(InputStream input) throws SAXException, IOException, ParserConfigurationException {
-        Document doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(input);
+    public static InputMethod fromFile(InputStream input) throws IllegalArgumentException {
+        if(input == null) {
+            throw new IllegalArgumentException("No such input method exists!");
+        }
+        Document doc;
+        try {
+            doc = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(input);
+        } catch (SAXException e) {
+            // Since this shouldn't happen, let me semi-swallow this into a runtime exception
+            throw new RuntimeException(e);
+        } catch (ParserConfigurationException e) {
+            // Since this shouldn't happen, let me semi-swallow this into a runtime exception
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            // Since this shouldn't happen, let me semi-swallow this into a runtime exception
+            throw new RuntimeException(e);
+        }
         Node root = doc.getDocumentElement();
         String id = root.getAttributes().getNamedItem("id").getTextContent();
         String name = root.getAttributes().getNamedItem("name").getTextContent();

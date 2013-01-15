@@ -1,4 +1,3 @@
-java-morelangs
-==============
+# java-morelangs
 
-Port of the core functionality and data of jQuery.IME to Java
+Port of the core functionality and data of jQuery.IME to Java.
